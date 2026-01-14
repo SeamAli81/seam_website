@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications - My IT Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My IT Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="internship.html">Internship</a></li>
+                    <li><a href="goals.html">Goals</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="images/certification1.jpg" alt="Certification 1" onclick="openModal('certification1')">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/certification2.jpg" alt="Certification 2" onclick="openModal('certification2')">
+                    </div>
+                    <!-- Add more certification images here -->
+                </div>
+
+                <!-- Certification Modals -->
+                <div id="certification1Modal" class="modal">
+                    <span class="close" onclick="closeModal('certification1')">&times;</span>
+                    <img src="images/certification1.jpg" alt="Certification 1">
+                    <div class="caption">Certification 1 - Details here</div>
+                </div>
+                <div id="certification2Modal" class="modal">
+                    <span class="close" onclick="closeModal('certification2')">&times;</span>
+                    <img src="images/certification2.jpg" alt="Certification 2">
+                    <div class="caption">Certification 2 - Details here</div>
+                </div>
+                <!-- Add more certification modals here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My IT Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/abdullah-al-hadi-shanto-838687285/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+                <a href="https://github.com/Shanto0502">GitHub</a>
+                <a href="mailto:abdullahshanto01@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
